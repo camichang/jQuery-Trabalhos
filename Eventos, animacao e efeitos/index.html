@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Animações</title>
+  
+</head>
+
+<body>
+    <div id="div1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet, delectus. Esse quisquam quaerat
+        nobis. A, qui unde quam sint quae dolorum corporis nostrum veritatis, blanditiis doloribus incidunt repellendus
+        voluptatem labore delectus exercitationem mollitia officiis, iste ducimus laudantium. Illum, quam! Alias quidem
+        deserunt numquam, voluptates animi consequuntur suscipit eaque sapiente ullam?</div>
+
+    <div id="div2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet, delectus. Esse quisquam quaerat
+        nobis. A, qui unde quam sint quae dolorum corporis nostrum veritatis, blanditiis doloribus incidunt repellendus
+        voluptatem labore delectus exercitationem mollitia officiis, iste ducimus laudantium. Illum, quam! Alias quidem
+        deserunt numquam, voluptates animi consequuntur suscipit eaque sapiente ullam?</div>
+
+    <div id="div3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet, delectus. Esse quisquam quaerat
+        nobis. A, qui unde quam sint quae dolorum corporis nostrum veritatis, blanditiis doloribus incidunt repellendus
+        voluptatem labore delectus exercitationem mollitia officiis, iste ducimus laudantium. Illum, quam! Alias quidem
+        deserunt numquam, voluptates animi consequuntur suscipit eaque sapiente ullam?</div>
+
+    <div id="div4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet, delectus. Esse quisquam quaerat
+        nobis. A, qui unde quam sint quae dolorum corporis nostrum veritatis, blanditiis doloribus incidunt repellendus
+        voluptatem labore delectus exercitationem mollitia officiis, iste ducimus laudantium. Illum, quam! Alias quidem
+        deserunt numquam, voluptates animi consequuntur suscipit eaque sapiente ullam?</div>
+
+    <div id="div5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet, delectus. Esse quisquam quaerat
+        nobis. A, qui unde quam sint quae dolorum corporis nostrum veritatis, blanditiis doloribus incidunt repellendus
+        voluptatem labore delectus exercitationem mollitia officiis, iste ducimus laudantium. Illum, quam! Alias quidem
+        deserunt numquam, voluptates animi consequuntur suscipit eaque sapiente ullam?</div>
+
+    <button id="btn1">teste1</button>
+    <button id="btn2"> teste2</button>
+    <button id="btn3"> teste3</button>
+
+    <form id="form">
+            <label for="form_nome">Nome completo</label> <br>
+            <input class="form_campo" type="text" id="form_nome" placeholder="Insira seu nome completo"> <br>
+
+            <label for="form_cpf">CPF</label><br>
+            <input  class="form_campo" type="text" id="form_cpf" placeholder="Insira seu CPF"> <br><br>
+
+            <label for="form_telefone">Telefone</label> <br>
+            <input  class="form_campo" type="tel" id="form_telefone" placeholder="11912345678"><br>
+
+            <label for="form_email">E-mail</label> <br>
+            <input  class="form_campo" type="email" id="form_email"><br>
+
+            <label for="form_endereco">Endereço</label> <br>
+            <input  class="form_campo" type="text" id="form_endereco" placeholder="av dos bandeirantes,1000"><br>
+
+            <label>Selecione o Estado</label> <br>
+            <select id="estado">
+                <option value="">Escolha</option>
+                <option value="sp">São Paulo</option>
+                <option value="mg">Minas Gerais</option>
+                <option value="rj">Rio de Janeiro</option>
+                <option value="ba">Bahia</option>
+                <option value="rs">Rio Grande do Sul</option>
+                <option value="pr">Paraná</option>
+                <option value="pe">Pernambuco</option>
+                <option value="ce">Ceará</option>
+                <option value="pa">Pará</option>
+                <option value="sc">Santa Catarina</option>
+            </select><br><br>
+
+            <button type="button" id="btn_enviar" onclick="form_enviar()">Enviar</button>
+
+            <span id="mensagemEnviado"></span>
+    </form>
+
+    <script src="./jquery-3.6.0.min copy.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
